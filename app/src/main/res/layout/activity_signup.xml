@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/heading_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heading_signUp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/edt_signUp_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading_signUp"
+        android:hint="@string/hint_signUp_email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/edt_signUp_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_signUp_email"
+        android:hint="@string/hint_signUp_password"
+        android:inputType="textVisiblePassword"/>
+    <Button
+        android:id="@+id/btn_signUP_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_signUp_password"
+        android:layout_marginHorizontal="4dp"
+        android:text="@string/button_submit"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_signUp_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_signUP_submit"
+        android:text="@string/button_clear"
+        />
+
+</RelativeLayout>

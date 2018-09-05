@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FirebaseTest</string>
+    <!-- String text used in activity_login -->
+    <string name="heading_login">Log In</string>
+    <string name="button_login">Log In</string>
+    <string name="button_clear">Clear Input</string>
+    <string name="button_signUp">First Time Use ?</string>
+    <string name="hint_login_username">Username: </string>
+    <string name="hint_login_password">Password: </string>
+    <string name="message_login_success">Login Successfully! Enjoy!</string>
+    <string name="message_login_fail">Opps! Login Failed! Try Again Please!</string>
+    <string name="message_clear_input">Clear</string>
+    <!-- String text used in activity_signup -->
+    <string name="heading_signUp">Sign Up</string>
+    <string name="hint_signUp_email">Email: </string>
+    <string name="hint_signUp_password">Password: (minimum length of 6 characters)</string>
+    <string name="button_submit">Submit</string>
+    <string name="message_signUp_success">Sign Up Successfully! Enjoy!</string>
+    <string name="message_signUp_fail">Sorry, Sign Up Failed! Try Again Please!</string>
+    <!-- String text used in activity_show_user -->
+    <string name="heading_showUser">User Account Details: </string>
+    <string name="heading2_userName">User Name:</string>
+    <string name="message_showUser_welcome">Welcome Home!</string>
+    <string name="button_signOut">Sign Out</string>
+</resources>

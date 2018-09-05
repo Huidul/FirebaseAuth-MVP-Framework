@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="password_minLength">6</integer>
+    <integer name="zero">0</integer>
+</resources>
